@@ -41,5 +41,5 @@ right{
         width:500px;
     }
 }
-}
+
 `
