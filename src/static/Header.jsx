@@ -5,7 +5,7 @@ import Flag from "../assets/nigeria.png"
 import { IoReorderTwoOutline } from "react-icons/io5"
 import {Link} from 'react-router-dom'
 import { useState } from 'react';
-import Sidebar from './SideBar';
+import Sidebar from './Sidebar';
 
 const Header = () => {
     const [toggle, setToggle] = useState(false)
