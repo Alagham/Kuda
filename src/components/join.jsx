@@ -6,6 +6,7 @@ const join = () => {
   return (
     <Container>
         <left>
+            
             <h1>The money app for Africans.</h1>
             <p>Save, spend, send and invest money across borders.</p>
             <button>Join Kuda</button>
