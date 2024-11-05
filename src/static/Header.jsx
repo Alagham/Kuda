@@ -72,8 +72,8 @@ export default Header;
 const Container = styled.div`
 width:100%;
 display:flex;
-/* padding-left: 20px;
-padding-right: 20px; */
+padding-left: 20px;
+padding-right: 20px;
 justify-content:center;
 align-items:center;
 gap:20%;
@@ -106,7 +106,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 text-decoration:none;
-border:2px solid gray;
+/* border:2px solid gray; */
 
 nav{
     color:#40196d;

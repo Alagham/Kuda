@@ -29,7 +29,7 @@ const Container = styled.div`
   margin-right: auto;
   margin-bottom:50px;
   padding: 0px 10px;
-  min-height: calc(100vh - 70px);
+  /* background-color: blue; */
   display: flex;
   align-items: center;
   justify-content: center;

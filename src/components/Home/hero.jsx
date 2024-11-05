@@ -15,12 +15,12 @@ const Hero = () => {
             Make free transfers, enjoy cashless payment options and earn
             interest on your savings with Kuda.
           </p>
-          <Buttons>
-            <button>
+          <Buttons style={{ display:"flex", gap:"20px"}}>
+            <button style={{backgroundColor:"black", color:"white", width:"150px", height:"50px", borderRadius:"10px"}}>
               {" "}
               <FaApple /> <span>App store</span>
             </button>
-            <button>
+            <button  style={{backgroundColor:"black", color:"white", width:"150px", height:"50px", borderRadius:"10px"}}>
               {" "}
               <BiLogoPlayStore /> <span>Play store</span>
             </button>
@@ -48,30 +48,29 @@ const Container = styled.div`
   margin-right: auto;
   margin-bottom:50px;
   padding: 0px 10px;
-  min-height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
-`;
-const Wrapper = styled.div`
-  width: 70%;
-  /* background-color: pink; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* margin:100px; */
+`
+  const Wrapper = styled.div`
+    width: 70%;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:100px;
 
-  img {
-    width: 450px;
-  }
-  @media (max-width: 800px) {
-    width: 80%;
     img {
-      margin-top: 20px;
-      margin-bottom:70px;
+      width: 450px;
     }
-  }
-`;
+    @media (max-width: 800px) {
+      width: 80%;
+      img {
+        margin-top: 20px;
+        margin-bottom:70px;
+      }
+    }
+  `;
 const TextBox = styled.div`
   max-width: 400px;
   /* background-color: aqua; */

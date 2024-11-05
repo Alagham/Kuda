@@ -76,6 +76,7 @@ const Wrapper = styled.div`
     flex-direction: row;
     flex-wrap: nowrap;
     animation: scroll 10s linear infinite; 
+    animation-iteration-count:infinite;
     
 
     @keyframes scroll {

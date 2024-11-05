@@ -19,11 +19,12 @@ const ImageText = (props)=>{
 export default ImageText
 const Container = styled.div`
 max-width: 1280px;
+/* background-color: green; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom:50px;
   padding: 0px 10px;
-  min-height: calc(100vh - 70px);
+  /* min-height: calc(100vh - 70px); */
   display: flex;
   align-items: center;
   justify-content: center;
