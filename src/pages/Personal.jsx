@@ -1,5 +1,5 @@
-import Hero from "../components/Home/Info"
-import Info from "../components/Home/Hero"
+import Hero from "../components/Home/info"
+import Info from "../components/Home/hero"
 import TextImage from "../components/TextImage"
 import simple from '../assets/simplerLife.png'
 import manage from '../assets/manage.png'
